@@ -5,7 +5,7 @@
 
   "name": "my-glitch-app",
   "version": "0.0.1",
-  "description": "What am I about?",
+  "description": "Request Header Parser Microservice",
   "scripts": {
     "start": "node server.js"
   },
