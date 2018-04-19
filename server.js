@@ -1,14 +1,14 @@
-// server.js
-// where your node app starts
+// Request Header Parser Microservice
+
+// Parses the request header for the:
+//  - IP address of the request
+//  - Language
+//  - Software of the OS
 
 // init project
 var express = require('express');
 var app = express();
 
-// we've started you off with Express,
-// but feel free to use whatever libs or frameworks you'd like through `package.json`.
-
-// http://expressjs.com/en/starter/basic-routing.html
 app.get("*", function (request, response) {
   let jsonHeader = JSON.parse(JSON.stringify(request.headers));
   console.log(jsonHeader);
@@ -22,5 +22,5 @@ app.get("*", function (request, response) {
 
 // listen for requests :)
 var listener = app.listen(process.env.PORT, function () {
-  console.log('Your app is listening on port ' + listener.address().port);
+  console.log('Microservice is listening on port ' + listener.address().port);
 });
