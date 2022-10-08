@@ -2,10 +2,10 @@ name: Lint
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ "opened", "edited", "reopened", "synchronize", "ready_for_review" ]
-    
+    branches: ["opened", "edited", "reopened", "synchronize", "ready_for_review"]
+
 jobs:
   build:
     runs-on: ubuntu-latest
