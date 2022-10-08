@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   pull_request:
-    branches: ["opened", "edited", "reopened", "synchronize", "ready_for_review"]
+    branches: ["opened", "edited", "reopened", "synchronize", "ready_for_review", "workflow_dispatch"]
 
 jobs:
   build:
