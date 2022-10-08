@@ -1,8 +1,10 @@
 name: Lint
 
 on:
+  push:
+    branches: [ main ]
   pull_request:
-    branches: [ $default-branch ]
+    branches: [ "opened", "edited", "reopened", "synchronize", "ready_for_review" ]
 
 permission: 
   contents: read
