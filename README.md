@@ -1,6 +1,10 @@
 # Request Header Parser Microservice
 -----------------------
 
+[![Lint](https://github.com/THEANTsMAN/Request-Header-Parser-Microservice/actions/workflows/lint.yml/badge.svg)](https://github.com/THEANTsMAN/Request-Header-Parser-Microservice/actions/workflows/lint.yml)
+
+-----------------------
+
 Runs an micro service that parses the request header and returns a json object showing the following information:
 -  IP address in the header that the request came from,
 -  Language in the request header
