@@ -36,7 +36,7 @@ PORT=XXXX npm start
 OR
 
 ```javascript
-PORT=XXXX node server.js
+PORT=XXXX node server.ts
 ```
 
 Where __XXXX__ is the port number you want it to run on.
